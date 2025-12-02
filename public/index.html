@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecopoints - Plataforma de Reciclaje</title>
+</head>
+<body>
+    <header>
+        <img src="IMG/logo2.png" alt="Ecopoints logo" width="80">
+        <h1>Ecopoints</h1>
+        <p>Plataforma de Reciclaje con Recompensas</p>
+        <nav>
+            <a href="#resumen">Inicio</a> |
+            <a href="#acciones">Reciclar</a> |
+            <a href="#historial">Historial</a> |
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="resumen">
+            <h2>Resumen de tu cuenta</h2>
+            <p><strong>Puntos acumulados:</strong><span id="puntostotales">0</span></p>
+            <p><strong>Material reciclado:</strong><span id="kgtotales">0.0</span>kg</p>
+            <p><strong>Canjes realizados:</strong><span id="canjestotales">0</span></p>
+        </section>
+        <hr>
+        <section id="acciones">
+            <h2>Acciones rápidas</h2>
+            <button id="btnreciclar">Registrar reciclaje</button>
+            <button id="btnVerRecompensas">Ver recompensas</button>
+            <button>Descargar comprobante</button>
+        </section>
+        <hr>
+
+        <section id="historial">
+            <h2>Historial de reciclaje</h2>
+            <p><strong> Lista de depósitos hechos por el usuario.</strong></p>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Peso (kg)</th>
+                        <th>Puntos</th>
+                    </tr>
+                </thead>
+                <tbody id="tablahistorial">
+                <script src="JS/app.js"></script>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Proyecto de Reciclaje con Recompensas - Ecopoints - ESIME</p>
+    </footer>
+</body>
+</html>
