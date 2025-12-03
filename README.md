@@ -83,10 +83,8 @@ Muestra un listado de recompensas disponibles según puntos.
 Genera un archivo `.txt` con:
 
 - Fecha
-- Material
 - Peso
 - Puntos
-- Totales acumulados
 
 ---
 
