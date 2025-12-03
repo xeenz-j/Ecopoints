@@ -101,6 +101,7 @@ npm install
 
 ### 3. Ejecutar el servidor
 node server.js
+
 EL servidor se ejecutarà en:
 http://localhost:3000
 
